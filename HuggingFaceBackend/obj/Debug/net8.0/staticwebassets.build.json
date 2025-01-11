@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "88yzDu5ZPyml7pFS/+o22WFiEf03FWLo20vFbvTzMO4=",
+  "Source": "HuggingFaceBackend",
+  "BasePath": "_content/HuggingFaceBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

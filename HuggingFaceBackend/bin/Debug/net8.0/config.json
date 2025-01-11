@@ -1,0 +1,10 @@
+{
+  "Database": {
+    "DataBaseFolderName": "Database",
+    "DataBaseTextFileName": "db.txt"
+  },
+  "HuggingFaceAPI": {
+    "HuggingFaceModelsApiURL": "https://api-inference.huggingface.co/models/",
+    "HuggingFaceApiKey": "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"
+  }
+}

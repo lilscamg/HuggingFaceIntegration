@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "HuggingFaceBackend.Controllers.HuggingFaceIntegrationController",
+    "Method": "GetResult",
+    "RelativePath": "api/get-result",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "HuggingFaceBackend.Models.DTO.HuggingFaceAPI.HuggingFaceAPIRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HuggingFaceBackend.Controllers.AuthController",
+    "Method": "Authorize",
+    "RelativePath": "auth/authorize",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "HuggingFaceBackend.Models.DTO.Authorization.AuthorizationRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HuggingFaceBackend.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "auth/logout",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HuggingFaceBackend.Controllers.AuthController",
+    "Method": "Registrate",
+    "RelativePath": "auth/registrate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "HuggingFaceBackend.Models.DTO.Registration.RegistrationRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
